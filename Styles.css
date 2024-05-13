@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0)30%, rgb(0, 0, 0, 0)30%), url(final.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title h1{
+    cursor: pointer;
+    font-family: sans-serif;
+    color: black;
+    font-size: 20px;
+
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0)30%, rgb(0, 0, 0, 0)30%), url(final.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 30px;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: sans-serif;
+    float: left;
+    padding-top: .6%;
+    cursor: pointer;
+}
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14%;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+ul li a:hover{
+    color: rgb(165, 165, 165);
+}
+
+.search-box{
+    float: right;
+    width: 240px;
+    background: #fff;
+    height: 30px;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.search-box .search-txt{
+    width: 190px;
+    padding: 0 6px;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: .6px;
+}
+ .title{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+    transform: translate(-50%,-50%);
+}
